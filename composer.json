@@ -1,0 +1,15 @@
+{
+    "name": "zaymedia/captcha",
+    "description": "An easy to install self-hosted image captcha library implemented with PHP + InterventionImage.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ZayMedia\\Captcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "intervention/image": "^2.7"
+    }
+}
